@@ -15,3 +15,9 @@ h1 {
 .active-title {
   color: var(--mat-sys-primary);
 }
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
