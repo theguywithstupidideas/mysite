@@ -1,0 +1,17 @@
+:host {
+  background-color: var(--mat-sys-surface-dim);
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: var(--mat-sys-primary);
+}
+
+.active {
+  background-color: var(--mat-sys-primary-container);
+}
+
+.active-title {
+  color: var(--mat-sys-primary);
+}

@@ -1,0 +1,9 @@
+<mat-expansion-panel (click)="$event.stopPropagation()" (closed)="this.isSelected.set(false)" (opened)="this.isSelected.set(true)" [ngClass]="{'active' : this.isSelected()}">
+  <mat-expansion-panel-header>
+    <mat-panel-title [ngClass]="{'active-title' : this.isSelected()}">{{Title}}</mat-panel-title>
+  </mat-expansion-panel-header>
+  <div>
+    <ng-content></ng-content>
+  </div>
+</mat-expansion-panel>
+

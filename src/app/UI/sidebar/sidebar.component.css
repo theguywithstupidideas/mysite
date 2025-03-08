@@ -1,0 +1,14 @@
+:host {
+  background-color: var(--mat-sys-surface-dim);
+  overflow: auto;
+}
+
+h1 {
+  color: var(--mat-sys-primary);
+}
+
+h2 {
+  color: white;
+  padding-left: 1.3rem;
+  font-size: 18px;
+}
