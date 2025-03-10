@@ -7,14 +7,14 @@ h1{
   background-color: white;
   border-radius: 4px;
   width: 5px;
-  height: 2280px;
-  overflow: visible;
+  height: auto;
 }
 
 .container{
   display: flex;
   flex-direction: row;
   gap: 10px;
+  height: auto;
 }
 
 .container2{
@@ -22,5 +22,6 @@ h1{
   flex-direction: column;
   gap: 30px;
   padding-right: 300px;
-  margin-bottom: 100px
+  margin-bottom: 100px;
+  height: auto;
 }
