@@ -1,6 +1,7 @@
 :host {
   background-color: var(--mat-sys-surface-dim);
   overflow: auto;
+  z-index: 10;
 }
 
 h1 {
